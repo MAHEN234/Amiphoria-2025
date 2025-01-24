@@ -1481,14 +1481,22 @@ text-align: center;}
 .side-button-container {
   position: relative;
   bottom: 20%;
-top: 200px;
+/* top: 200px; */
   z-index: 1000;
 }
+@media only screen and (max-width: 400px) {
+  .side-button-container {
+  position: relative;
+  bottom: 20%;
+  margin: 0 auto;
+  /* top: 200px; */
+  z-index: 1000;
+}}
 
 /* Button Styling */
 .side-button {
-  right: 50px;
-  bottom: 100px;
+  /* left: 50px;
+  bottom: 150px; */
   width: 200px;
   height: 50px;
   background-color: #ffc20f;
